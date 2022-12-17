@@ -1,7 +1,7 @@
 export const state = () => ({
     status: 200,
     domain: '',
-    server_org: 'pc',
+    server_org: 'server',
     connecting_status: 0
 });
 
