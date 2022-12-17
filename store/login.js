@@ -6,7 +6,7 @@ export const state = () => ({
     id: '',
     name: '',
     due: '',
-    server_org: 'pc',
+    server_org: 'server',
     domain: '',
     wb_domain: '',
     entrance: 0,
