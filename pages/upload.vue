@@ -343,6 +343,16 @@ export default {
     }
   },
   mounted() {
+    var userAgent = window.navigator.userAgent.toLowerCase()
+    if (
+        userAgent.indexOf("iphone") != -1 ||
+        userAgent.indexOf("android") != -1 ||
+        userAgent.indexOf("mobile") != -1
+      ) {
+        location.href="https://moodocs-normal.ant-group2022.com"
+    } else {
+        console.log(true)
+    }
     this.$store.commit("login/connection")
     this.window = true
 
