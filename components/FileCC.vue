@@ -69,7 +69,7 @@
                   </td>
                   <td>
                     <select class="form-control" v-model="i.due.day">
-                      <option v-for="dueday in itemmonths">{{ dueday }}日</option>
+                      <option v-for="dueday in itemday">{{ dueday }}日</option>
                     </select>
                   </td>
                 </tr>
@@ -87,7 +87,7 @@
                   </td>
                   <td>
                     <select class="form-control" v-model="i.upload_date.day">
-                      <option v-for="dueday in itemmonths">{{ dueday }}日</option>
+                      <option v-for="dueday in itemday">{{ dueday }}日</option>
                     </select>
                   </td>
                 </tr>
